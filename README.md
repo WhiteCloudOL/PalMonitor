@@ -1,4 +1,4 @@
-# PalMonitor
+# PalMonitor for Windows
 ## PalMonitor is a tool to keep palserver online and healthy.
 ----
 ### 功能：
