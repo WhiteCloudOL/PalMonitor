@@ -15,6 +15,7 @@
 1.Release已自带Python runtime，无需预先配置Python
 
 如欲自行配置请下载源码
+2.由于能力有限，部分代码我参考了CSDN、geek-docs.com相关教程，相关代码段非原创
 
 ----
 
