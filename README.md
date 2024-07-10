@@ -15,8 +15,9 @@
 1.Release已自带Python runtime，无需预先配置Python
 
 如欲自行配置请下载源码
+----
 
-Features:
+### Features:
 
 1.Monitor the server and automatically restart the server when it crashes
 
@@ -26,7 +27,7 @@ Features:
 
  - To fit different WindowsServer servers, you can modify the path as needed, should use double backslash "\" (related variables: save_locate, backuped_path, respectively, the server archive address and backup address)
 
-Instructions:
+### Instructions:
 
 1.Release comes with its own Python runtime, so there is no need to pre-configure Python.
 
