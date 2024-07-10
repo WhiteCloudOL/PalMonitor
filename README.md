@@ -9,7 +9,7 @@
 3.定期备份服务器存档，这个间隔默认为1小时，最大同时存在10个备份（相关变量：backup_time）
 
  - 为契合不同WindowsServer服务器，你可以根据需要修改路径，应使用双反斜杠"\"（相关变量：save_locate、backuped_path，分别为服务器存档地址 与 备份地址）
- - 
+
 ### 说明：
 
 1.Release已自带Python runtime，无需预先配置Python
