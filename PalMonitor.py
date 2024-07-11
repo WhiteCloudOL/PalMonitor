@@ -34,8 +34,11 @@ def repeat_function(scheduler, interval):
 
 def PalMonitor():
     if not check_process(program):
-        print("[PalMonitor]Missing program!Program will be restarted in a few seceonds.")
+        t = time.strftime(strf_style, time.localtime(time.time()))
+        print("[PalMonitor][%s]Missing program!Program will be restarted in a few seceonds."% t)
         subprocess.Popen(program_locate)
+        t = time.strftime(strf_style, time.localtime(time.time()))
+        print("[PalMonitor][%s]Program is restarted now."% t)
     """
     # 此语段选择使用，定时打印正常运行
     else:
